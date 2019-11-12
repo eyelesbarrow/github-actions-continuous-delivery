@@ -2,7 +2,7 @@ name: Staging deployment
 
 on: 
  pull request:
-   types: [labeled]
+   types: [workflows]
 
 jobs: 
   build:
